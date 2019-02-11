@@ -1,0 +1,67 @@
+{
+  "employees": [
+    {
+      "firstName": "David",
+      "lastName": "Bird",
+      "email": "bird11@mctc.edu",
+      "phone": "3046171825",
+      "birthday": "1984-11-18",
+      "dept": "Sales",
+      "id": 1
+    },
+    {
+      "firstName": "David",
+      "lastName": "Bird",
+      "email": "bird11@mctc.edu",
+      "phone": "304-617-1825",
+      "birthday": "1984-11-18",
+      "dept": "Marketing",
+      "id": 2
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "jdoe@google.com",
+      "phone": "555-555-1253",
+      "birthday": "2019-02-05",
+      "dept": "Research",
+      "id": 3
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Jenkins",
+      "email": "mjenkins@google.com",
+      "phone": "555-555-5556",
+      "birthday": "1976-05-07",
+      "dept": "Sales",
+      "id": 4
+    },
+    {
+      "firstName": "Ogleby",
+      "lastName": "Fletcher",
+      "email": "ofletcher@google.com",
+      "phone": "3045654322",
+      "birthday": "",
+      "dept": "Marketing",
+      "id": 5
+    },
+    {
+      "firstName": "Wilma",
+      "lastName": "Anderson",
+      "email": "wanderson@google.com",
+      "phone": "304-123-1234",
+      "birthday": "1984-10-05",
+      "dept": "Management",
+      "id": 6
+    },
+    {
+      "firstName": "Maude",
+      "lastName": "Smith",
+      "email": "msmith@google.com",
+      "phone": "304-231-4235",
+      "birthday": "",
+      "dept": "Research",
+      "id": 7
+    }
+  ]
+}
