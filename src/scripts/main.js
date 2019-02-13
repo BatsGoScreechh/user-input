@@ -16,25 +16,6 @@ document.querySelector("#save-btn").addEventListener("click", event => {
         dept: employeeDeptValue
     }
 
-    fetch("http://localhost:8088/employees", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(employeeToAdd)
-    }).then((response) => {
-        fetch("http://localhost:8088/employees")
-        .then(employees => employees.json())
-        .then(allEmployeeInfo => {
-            allEmployeeInfo.forEach(employeeInfo => {
-                document.querySelector("#output").innerHTML += `<div>
-                <label>
-                    <p>First Name: ${employeeInfo.firstName}</p>
-                    <p>Last Name: ${employeeInfo.lastName}</p>
-                    <p>Email Address: ${employeeInfo.email}</p>
-                    <p>Phone Number: ${employeeInfo.phone}</p>
-                    <p>Birthday: ${employeeInfo.birthday}</p>
-                    <p>Department: ${employeeInfo.dept}</p>
 
                     <hr>
                     </label>
